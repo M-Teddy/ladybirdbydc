@@ -1,4 +1,16 @@
 .separation{
 background-color: #F7F3F4;
 height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+p{
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+
+}
 }

@@ -29,27 +29,6 @@
   background-size: cover;
 }
 
-.picture-band{
-  font-family: "Proxima Nova", sans-serif;
-  height: 400px;
-  width: 100%;
-  color: white;
-  margin: 100px 0 0px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  p{
-    font-size: 30px;
-    font-weight: bold;
-  }
-  a{
-    margin-left: 40px;
-    font-size: 20px;
-    color: white;
-  }
-}
-
 .btn-malt{
   font-family:'Courier New', Courier, monospace;
   font-weight:bold;
@@ -64,8 +43,4 @@
   &:after{
     color: #EC2E57;
   }
-}
-
-#work{
-  background-image: url(https://res.cloudinary.com/dezfv3vmn/image/upload/v1674640423/Portfolio/bandeau_dlnppu.jpg);
 }
