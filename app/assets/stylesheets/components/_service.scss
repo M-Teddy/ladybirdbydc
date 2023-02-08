@@ -5,7 +5,7 @@
     font-family: "Proxima Nova", sans-serif;
     font-size: 50px;
     font-weight: bold;
-    color: #EC2E57
+    color: #DF5650;
   }
   &__check{
     margin-top: 20px;
@@ -79,7 +79,7 @@ hr{
       flex-direction: column;
       &:hover{
         transition:all 400ms;
-        color: #EC2E57;
+        color: #DF5650;
         // opacity: 1;
       }
     }
