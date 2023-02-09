@@ -4,19 +4,25 @@
   justify-content: space-between;
   padding: 20px 0 10px 0;
   background-color: #F8F9FA;
+  p{
+    color: #B6D7E5;
+    opacity: 0.8;
+    margin: 0;
+  }
 }
 .item-2022 {
   ul{
     display: flex;
     flex-direction: row;
     list-style: none;
+    margin: 0;
   }
   li{
     margin-right: 30px;
     a{
       text-decoration: none;
       font-size: 20px;
-      color: #000000;
+      color: #B6D7E5;
       &:hover{
         transition: 400ms;
         color: #fbA8A8;
@@ -25,7 +31,7 @@
       }
     p{
       font-size: 20px;
-      color: #000000;
+      color: #fbA8A8;
     }
     }
   }
@@ -35,12 +41,13 @@
     display: flex;
     flex-direction: row;
     list-style: none;
+    margin: 0;
   }
   li{
     margin-right: 30px;
     a{
       text-decoration: none;
-      font-size: 20px;
+      font-size: 30px;
       color: #B6D7E5;
       &:hover{
         transition: 400ms;
