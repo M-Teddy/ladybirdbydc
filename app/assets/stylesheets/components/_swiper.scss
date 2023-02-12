@@ -10,7 +10,7 @@
     // object-fit: cover;
     height: 80vh;
     width: auto;
-    padding: 10px;
+    padding: 20px;
   }
 
   &-button-next,
@@ -36,7 +36,8 @@
   }
 
   .swiper-pagination-bullet-active{
-    background: rgb(255, 255, 255) !important;
+
+    background: rgb(209, 79, 79) !important;
   }
 }
 .swiper-slide{
