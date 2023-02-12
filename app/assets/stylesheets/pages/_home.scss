@@ -12,22 +12,36 @@
   align-items: center;
   font-weight: bold;
   // color: white;
+
+
 }
 .banner{
   cursor: url("https://res.cloudinary.com/dezfv3vmn/image/upload/v1675959917/Doriane%20Chatelain/petit_picto_xluzfh.png"), pointer;
   color: #B6D7E5;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  @media screen and (max-width: 320px) {
+    color: #000000;
+  }
   &__title{
     font-size: 50px;
     color: #B6D7E5;
+    @media screen and (max-width: 320px) {
+      color: #000000;
+    }
   }
   &__content{
     font-size: 20px;
     font-weight: bold;
+    @media screen and (max-width: 320px) {
+      color: #000000;
+    }
   }
   &__link{
     font-size: 20px;
     color: #B6D7E5;
+    @media screen and (max-width: 320px) {
+      color: #000000;
+    }
     &:hover{
       color:#fbA8A8;
     }
