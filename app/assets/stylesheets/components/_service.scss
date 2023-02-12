@@ -44,7 +44,7 @@ hr{
 }
 
   .card1 {
-    font-family: "Proxima Nova", sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -90,6 +90,8 @@ hr{
       color: #000000;
     }
     p{
+      text-align: center;
       padding: 10px;
+      font-size: 18px;
     }
   }
