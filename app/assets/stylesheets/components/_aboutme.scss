@@ -1,10 +1,6 @@
 .aboutme{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-image: url(https://res.cloudinary.com/dezfv3vmn/image/upload/v1676219938/Doriane%20Chatelain/BANNIERE_wybgng.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: #F7F3F4;
-  // height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +8,19 @@
   padding: 0;
   opacity: 1;
   height: 400px;
-
+  @media screen and (max-width: 320px) {
+    height: auto;
+    flex-direction: column;
+    padding: 15px;
+  }
+  @media screen and (max-width: 960px) {
+    height: auto;
+    flex-direction: column;
+    padding: 15px;
+  }
+}
+.doriane{
+  width: 60%;
   p{
     display: flex;
     align-items: center;
@@ -21,4 +29,14 @@
     color: #fbA8A8;
     font-weight : 400;
   }
+}
+.doriane-pict{
+  padding-left: 40px;
+  @media screen and (max-width: 320px) {
+    padding-left: 0;
   }
+
+  @media screen and (max-width: 960px) {
+    padding-left: 0;
+  }
+}
