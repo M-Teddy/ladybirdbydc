@@ -1,16 +1,25 @@
 
 .picture-tm{
-  font-family: "Proxima Nova", sans-serif;
+  // font-family: "Proxima Nova", sans-serif;
   height: 600px;
   width: 100%;
   padding-top: 200px;
-  color: white;
+  color: #B6D7E5;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  // color: white;
 }
 .banner{
   cursor: url("https://res.cloudinary.com/dezfv3vmn/image/upload/v1675959917/Doriane%20Chatelain/petit_picto_xluzfh.png"), pointer;
+  color: #B6D7E5;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   &__title{
     font-size: 50px;
-    color: white;
+    color: #B6D7E5;
   }
   &__content{
     font-size: 20px;
@@ -18,7 +27,7 @@
   }
   &__link{
     font-size: 20px;
-    color: white;
+    color: #B6D7E5;
     &:hover{
       color:#fbA8A8;
     }
