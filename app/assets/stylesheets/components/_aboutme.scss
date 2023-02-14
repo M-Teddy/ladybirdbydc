@@ -20,7 +20,9 @@
   }
 }
 .doriane{
-  width: 60%;
+  // width: 60%;
+  max-width: 850px;
+  padding: 0 24px;
   p{
     display: flex;
     align-items: center;
