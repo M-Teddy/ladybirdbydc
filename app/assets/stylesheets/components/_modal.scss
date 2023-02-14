@@ -23,6 +23,8 @@
     margin: auto;
     flex: 1;
     position: relative;
+    background-color: transparent;
+    border: none;
   }
 .modal-close{
   position: absolute;
@@ -40,8 +42,8 @@
 }
 .modal-footer{
   padding: 10px;
-  border-top: #fbA8A8;
-  background-color: #fbA8A8;
+  background-color: transparent;
+  border: none;
   text-align: right;
 }
 .btn{
@@ -51,7 +53,7 @@
   text-decoration: none;
 }
 .btn-close{
-  // background-color: red;
+  background-color: #fbA8A8;
   color: white;
   text-decoration: none;
   padding: 5px;
